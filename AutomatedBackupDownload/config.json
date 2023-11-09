@@ -1,0 +1,7 @@
+{
+  "username": "",
+  "password": "",
+  "security_token": "",
+  "auth_url": "https://login.salesforce.com/services/Soap/u/58.0",
+  "org_url": "https://.my.salesforce.com"
+}
