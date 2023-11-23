@@ -2,25 +2,19 @@
 from main import (
 loadConfig,
 login,
-headers,
 getFileLink,
 downloadFile
 )
-
 from settings import (
 Result
-)
-
-from sendmail import (
-send_mail
 )
 
 print('#### Inicializando descargar de backup ####')
 CONFIG = loadConfig()
 print('#-Carga de configuracion...')
 RESP = login(CONFIG)
-print('#-LOGIN -- OK')
 RESULT = Result(RESP.text)
+print('#-LISTANDO ARCHIVOS')
 LINK = getFileLink(RESULT, CONFIG)
 print('#-Iniciandod descarga...')
 FILE = downloadFile(LINK, RESULT, CONFIG)
