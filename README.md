@@ -22,7 +22,7 @@ This tool is ued for exporting data from Salesforce using Salesforce Data Export
     }
     ```
 4. Run the script using `python run.py`.
-![image](https://github.com/psagredo99/autoBackupDownload/assets/72439144/a6635ecf-1369-4b29-bf31-001493404024)
+![image](https://github.com/psagredo99/autoBackupDownload/assets/72439144/3f1dadd5-f6a0-400c-8338-b9eb19b4066d)
 
 ## Configuration
 - **config.json**: Contains Salesforce login credentials and configuration.
